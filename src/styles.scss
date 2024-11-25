@@ -1,0 +1,36 @@
+:root{
+    --primary-color: #606C38;
+    --font-secondary: #c3c3c3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box-;
+    font-family: "Poppins", serif;
+}
+.btn-primary{
+    background: #606C38;
+    color: white;
+    border-radius: 13px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 4px solid #464e2b;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-secondary{
+    background: #ffffff;
+    color: #606C38;
+    border-radius: 13px;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #606C38;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}

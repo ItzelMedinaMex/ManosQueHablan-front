@@ -1,0 +1,22 @@
+footer{
+    // position: absolute;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    bottom: 0;
+    height: 150px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: -300px;
+    background-color: #95b585;
+    gap: 20px;
+    padding: 20px;
+    h3{
+        padding-left: 10px;
+        color: var(--primary-color);
+        font-size: 20px;
+        text-align: center;
+    }
+}
